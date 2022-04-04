@@ -1,0 +1,282 @@
+.grid-wrapper_drid {
+	display: inline;
+	position: relative;
+	top: -10px
+}
+
+.grid-item {
+	display: block;
+	width: 32.6%;
+	line-height: 1;
+	height: 380px
+}
+
+.filter_grid {
+	text-align: center;
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
+	transition: visibility .3s linear, height .3s linear, width .3s linear, opacity .3s linear;
+	margin: 0;
+	padding: 0
+}
+
+.show_g_grid {
+	opacity: 1;
+	visibility: visible;
+	height: 110px;
+	left: 3px!important
+}
+
+.black_bg .show_g_grid {
+	height: 120px
+}
+
+.black_bg.ep .show_g_grid {
+	height: 150px
+}
+
+.black_bg.whitesmoke .show_g_grid {
+	height: 10%
+}
+
+.listName_game {
+	font-size: 13px;
+	color: #b7b7b7;
+	position: relative;
+	top: -2px
+}
+
+#myBtnContainer_grid {
+	margin-top: 0!important;
+	text-align: center
+}
+
+.bg-gradient-game_grid {
+	display: inline-block;
+	width: 80%;
+	border-radius: .25rem!important;
+	position: relative
+}
+
+.black_bg .bg-gradient-game_grid {
+	width: 100%
+}
+
+button.select_G_grid:focus {
+	outline: none!important;
+	box-shadow: none!important
+}
+
+.select_G_grid {
+	background: #350b4a;
+	color: #fff;
+	border-radius: 0
+}
+
+.black_bg .select_G_grid {
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative
+}
+
+.select_G_grid:hover {
+	color: #fff
+}
+
+.select_G_grid.active {
+	background: #130f15;
+	color: #fff;
+	text-shadow: 0 5px 20px #fff, -29px -40px 0 transparent
+}
+
+.txt_img-icon {
+	position: relative;
+	top: 10px
+}
+
+.select_G_grid .img-icon.all_game,
+.select_G_grid .img-icon.fishing,
+.select_G_grid .img-icon.funky,
+.select_G_grid .img-icon.slot,
+.select_G_grid .img-icon.freespin,
+.select_G_grid .img-icon.game,
+.select_G_grid .img-icon.jackpot,
+.select_G_grid .img-icon.tablegame {
+	width: 40px;
+	height: 35px;
+	background-size: 49px 37px;
+	background-position: center;
+	position: absolute
+}
+
+.col-4>.select_G_grid .img-icon.all_game,
+.col-4>.select_G_grid .img-icon.fishing,
+.col-4>.select_G_grid .img-icon.funky,
+.col-4>.select_G_grid .img-icon.slot,
+.col-4>.select_G_grid .img-icon.freespin,
+.col-4>.select_G_grid .img-icon.game,
+.col-4>.select_G_grid .img-icon.jackpot,
+.col-4>.select_G_grid .img-icon.tablegame {
+	width: 40px;
+	height: 35px;
+	background-size: 49px 37px;
+	background-position: center;
+	position: absolute
+}
+
+.select_G_grid .img-icon.funky {
+	background-image: url(../image/menu/joker/funky.png)
+}
+
+.select_G_grid.active .img-icon.funky {
+	background-image: url(../image/menu/joker/funky_active.png)
+}
+
+.select_G_grid .img-icon.all_game {
+	background-image: url(../image/btn_new/all_game.png)
+}
+
+.select_G_grid.active .img-icon.all_game {
+	background-image: url(../image/btn_new/all_game_active.png)
+}
+
+.select_G_grid .img-icon.fishing {
+	background-image: url(../image/btn_new/fishing_game.png)
+}
+
+.select_G_grid.active .img-icon.fishing {
+	background-image: url(../image/btn_new/fishing_game_active.png)
+}
+
+.select_G_grid .img-icon.slot {
+	background-image: url(../image/btn_new/slot_game.png)
+}
+
+.select_G_grid.active .img-icon.slot {
+	background-image: url(../image/btn_new/slot_game_active.png)
+}
+
+.select_G_grid .img-icon.freespin {
+	background-image: url(../image/btn_new/freespin_game.png)
+}
+
+.select_G_grid.active .img-icon.freespin {
+	background-image: url(../image/btn_new/freespin_game_active.png)
+}
+
+.select_G_grid .img-icon.game {
+	background-image: url(../image/btn_new/game_game.png)
+}
+
+.select_G_grid.active .img-icon.game {
+	background-image: url(../image/btn_new/game_game_active.png)
+}
+
+.select_G_grid .img-icon.jackpot {
+	background-image: url(../image/btn_new/jackpot_game.png)
+}
+
+.select_G_grid.active .img-icon.jackpot {
+	background-image: url(../image/btn_new/jackpot_game_active.png)
+}
+
+.select_G_grid .img-icon.tablegame {
+	background-image: url(../image/btn_new/tablegame_game.png)
+}
+
+.select_G_grid.active .img-icon.tablegame {
+	background-image: url(../image/btn_new/tablegame_game_active.png)
+}
+
+.shadow_select_G {
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+	background: #350b4a
+}
+
+.p-0.m-0.border-right {
+	border-right: 1px solid #300148!important
+}
+
+.p-0.m-0.border-left {
+	border-left: 1px solid #300148!important
+}
+
+.select_G_grid .select_G_grid {
+	background: #000;
+	color: #fff;
+	border-radius: 0
+}
+
+.black_bg .select_G_grid:hover {
+	color: #fff
+}
+
+.black_bg .select_G_grid.active {
+	background: #333;
+	color: #fff
+}
+
+.black_bg .border-right {
+	border-right: 1px solid #383838!important
+}
+
+.black_bg .border-left {
+	border-left: 1px solid #383838!important
+}
+
+.icon_gameJoker {
+	height: 35px
+}
+
+.game-container .listGame .item-game .new {
+	position: absolute;
+	width: 67px;
+	height: 68px;
+	background: url(http://www.joker1788.net/Themes/Joker/mobile/assets/images/flag-new.png?v=15) no-repeat;
+	top: 21%;
+	right: 2%;
+	z-index: 5
+}
+
+.divComing_soon {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: #414141;
+	z-index: 1;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	width: 100%;
+	overflow: hidden
+}
+
+.txtComing_soon {
+	font-size: 13px;
+	color: #f5f900;
+	padding: 3px 5px 0;
+	animation: gg_float 1s ease-in-out infinite
+}
+
+@keyframes gg_float {
+	0% {
+		transform: translatey(0px)
+	}
+	50% {
+		transform: translatey(-1px)
+	}
+	100% {
+		transform: translatey(0px)
+	}
+}
+
+.Coming_soon .image {
+	opacity: .5
+}
+
+.Coming_soon a {
+	cursor: no-drop
+}

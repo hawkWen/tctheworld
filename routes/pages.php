@@ -1,0 +1,32 @@
+<?php 
+Route::get('contact-us', 'HomeController@index');
+Route::get('about-us', 'HomeController@index');
+Route::get('service', 'HomeController@index');
+Route::get('printing-and-typesetting-industry', 'HomeController@index');
+Route::get('new-sximo-5.1.6-sept-2016', 'HomeController@index');
+Route::get('-remaining-essentially-unchanged', 'HomeController@index');
+Route::get('page-backend', 'HomeController@index');
+Route::get('new-sximo-5-ultimate-powefull-cms', 'HomeController@index');
+Route::get('profile', 'HomeController@index');
+Route::get('promotion', 'HomeController@index');
+Route::get('myinfo', 'HomeController@index');
+Route::get('mygameinfo', 'HomeController@index');
+Route::get('mybankinfo', 'HomeController@index');
+Route::get('mytransinfo', 'HomeController@index');
+Route::get('changepassword', 'HomeController@index');
+Route::get('mission', 'HomeController@index');
+Route::get('deposit-cf', 'HomeController@index');
+Route::get('withdraw-cf', 'HomeController@index');
+Route::get('referral', 'HomeController@index');
+Route::get('faq', 'HomeController@index');
+Route::get('vip', 'HomeController@index');
+Route::get('transaction', 'HomeController@index');
+Route::get('mission-detail', 'HomeController@index');
+Route::get('games', 'HomeController@index');
+Route::get('forgot-password', 'HomeController@index');
+Route::get('daily-rewards', 'HomeController@index');
+Route::get('wheel', 'HomeController@index');
+Route::get('home', 'HomeController@index');
+Route::get('cashback', 'HomeController@index');
+Route::get('shop', 'HomeController@index');
+?>

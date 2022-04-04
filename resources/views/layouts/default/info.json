@@ -1,0 +1,40 @@
+{
+	"name"		:"Default Theme",
+	"folder"	:"default",
+	"author"	:"Mango TM",
+	"template"	:{
+					
+					"Default Page"		: "page",
+					"Homepage"			: "homepage",
+					"Full Page"			: "fullpage",
+					"Contact Form"		: "contact",
+					"Backend Template"	: "backend",
+					"โปรไฟล์ของฉัน"	: "profile",
+					"โปรโมชั่น"	: "promotion",
+					"ข้อมูลส่วนตัว" : "myinfo",
+					"บัญชีผู้ใช้งาน" : "mygameinfo",
+					"ข้อมูลธนาคาร" : "mybankinfo",
+					"ประวัติธุรกรรม" : "mytransinfo",
+					"กิจกรรมเครดิตฟรี" : "mission",
+					"รายละเอียดกิจกรรม" : "msd",
+					"ฝากเงิน" : "deposit",
+					"ถอนเงิน" : "withdraw",
+					"แจ้งฝากเงิน" : "confirm-payment",
+					"คำถามที่พบบ่อย" : "faq",
+					"ลิ้งค์มหาลาภ" : "affliate",
+					"VIP" : "vip",
+					"รายละเอียดธุรกรรม" : "transaction",
+					"รายละเอียด" : "promotion-detail",
+					"กงล้อทิเบต" : "wheel",
+					"เปลี่ยนรหัสผ่าน"			: "changepassword",
+					"ลืมรหัสผ่าน"			: "forgotpassword",
+					"หน้าเกมส์" : "gamelist",
+					"ฝากประจำ" : "daily",
+					"ร้านค้า" : "shop",
+					"กล่องจดหมาย" : "mailbox",
+					"อันดับผู้ชนะ" : "ranking",
+					"คืนยอดเสีย" : "cashback"
+
+
+				}
+}

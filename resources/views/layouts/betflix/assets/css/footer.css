@@ -1,0 +1,63 @@
+.footer_menu {
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #dfdfdf;
+	z-index: 99;
+	height: 55px;
+	-webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+	background-color: #f5f5f5;
+	border-color: #ddd;
+	width: 100%;
+	margin: 0
+}
+
+@media only screen and (min-device-aspect-ratio:512/683) {
+	.footer_menu {
+		width: 374px!important
+	}
+}
+
+@media only screen and (min-device-aspect-ratio:1920/1080) {
+	.footer_menu {
+		width: 374px!important
+	}
+}
+
+.boxmenuFooter {
+	width: 24%;
+	display: inline-table;
+	position: relative;
+	top: 3px
+}
+
+.menu-footer,
+.menu-footer:active,
+.menu-footer:focus,
+.menu-footer:hover,
+.menu-footer:visited {
+	outline: unset!important;
+	border: unset!important;
+	-webkit-box-shadow: none!important;
+	box-shadow: none!important
+}
+
+.boxmenuFooter a,
+.boxmenuFooter a:hover,
+.color,
+.color:hover,
+.footer_menu .ion,
+.footer_menu .ion:hover,
+.menu-footer.active,
+.menu-footer.active:hover,
+.row.footer_menu p,
+.row.footer_menu p:hover,
+.size_logoMenu,
+.size_logoMenu:hover {
+	color: #2f0743
+}
+
+.footer_menu .boxmenuFooter p {
+	position: relative;
+	top: -6px!important
+}
